@@ -26,7 +26,6 @@ def scrape():
     mars_results.update(
         {},
         mars_data,
-        # make a new entry or update old entry
         upsert=True
     )
 

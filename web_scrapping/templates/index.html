@@ -29,12 +29,16 @@
         <div class = "row">
             <div class = "col-md-8">
                 <h3> Featured Image</h3>
+                <img src="{{mars_results.feat_image}}" height="500" width="500">
+                
             </div>
 
             <div class = "col-md-4">
                 <h3> Current Weather Mars</h3>
+                <p> {{mars_results.weather}}</p>
                 <br>
                 <h4> Mars Facts</h4>
+                <p>mars_results.facts</p>
             </div>
         </div>
 
@@ -42,6 +46,30 @@
         <div class = "row">
             <div class = "col-md-12">
                 <h3> <center> Mars Hemispheres </center></h3>
+                <TABLE class="tables box ">
+                        <TR>
+                            <TH COLSPAN="2">
+                            <H2><BR>Mars Hemispheres</H2>
+                            </TH>
+                        </TR>
+                        <TR>
+                       <TD>
+                            <img src="graphs/cloudiness.png" alt "Cloudy Map" height="150" width="150"> 
+                       </TD>
+    
+                       <TD>
+                            <img src="graphs/humidity.png" alt "Humidity Map" height="150" width="150">
+                       </TD>
+                        </TR>
+                        <TR>
+                       <TD>
+                            <img src="graphs/temperature.png" alt "Temperature Map" height="150" width="150"> 
+                       </TD>
+                       <TD>
+                            <img src="graphs/wind_speed.png" alt "Wind Speed" height="150" width="150"> 
+                       </TD>
+                       </TR>
+                </TABLE>
             </div>
         </div>
 
