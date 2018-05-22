@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dropdown Events</title>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
@@ -26,7 +25,32 @@
   
     <!-- java script code stored in app.js file -->
     <script src="https://d3js.org/d3.v4.min.js"></script>  
-<script src="plotly.js" type="text/javascript"></script>
+   <script>
+       Plotly.d3.json('/names', function (error,data) {
+    if (error) return console.warn(error);
+
+    var namesList = document.querySelector("#selDataset");
+
+    // Lopp through array and store in HTML
+    for(var i = 0; i < names.length; i ++) {
+        
+        // Empty string to hold HTML
+        var namesListItem = document.createElement("option");
+
+        // Retrieve todo object from todos list
+        var name = names[i];
+
+        // Update namesListItem's innter HTML w/ text of name object
+        namesListItem.innerHTML = name.text;
+
+        // Add name to the list
+        namesList.appendChild(namesListItem);
+
+    }
+    });
+
+    </script>
+
     </div>
     
 </body>

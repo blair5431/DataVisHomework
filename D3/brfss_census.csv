@@ -1,0 +1,52 @@
+id,state,abbr,heartdisease,flushot,poverty
+1,AL,Alabama,5.6,64.2,19.3
+2,AK,Alaska,2.4,51.6,11.2
+4,AZ,Arizona,4,56.1,18.2
+5,AR,Arkansas,6.2,63.8,18.9
+6,CA,California,3.7,58.2,16.4
+8,CO,Colorado,3,67,12
+9,CT,Connecticut,3.7,64.7,10.8
+10,DE,Delaware,4.8,64,12.5
+11,DC,District of Columbia,2.4,55.7,17.7
+12,FL,Florida,5.4,53.1,16.5
+13,GA,Georgia,4.1,54.7,18.3
+15,HI,Hawaii,3.4,65.5,11.4
+16,ID,Idaho,3.4,54,14.8
+17,IL,Illinois,3.6,56.9,14.4
+18,IN,Indiana,4.6,56.3,15.2
+19,IA,Iowa,4.1,66.8,12.2
+20,KS,Kansas,4.2,60.8,13.6
+21,KY,Kentucky,6,68.9,19.1
+22,LA,Louisiana,6.2,65.1,19.8
+23,ME,Maine,5.4,61.2,14.1
+24,MD,Maryland,3.2,62.1,10.1
+25,MA,Massachusetts,4.3,57.8,11.6
+26,MI,Michigan,5.4,57.6,16.2
+27,MN,Minnesota,3.5,64.3,11.5
+28,MS,Mississippi,4.7,66.7,21.5
+29,MO,Missouri,4.8,68.3,15.5
+30,MT,Montana,3.6,60.8,15.4
+31,NE,Nebraska,3.9,64.7,12.4
+32,NV,Nevada,4.7,52.9,15.2
+33,NH,New Hampshire,4.2,60.8,9.2
+34,NJ,New Jersey,4.4,59.4,11.1
+35,NM,New Mexico,3.9,56.2,21.3
+36,NY,New York,4.2,60,15.9
+37,NC,North Carolina,5,68.8,17.2
+38,ND,North Dakota,4.1,61.4,11.5
+39,OH,Ohio,4.8,55.7,15.8
+40,OK,Oklahoma,5.4,67,16.6
+41,OR,Oregon,4,56.6,16.6
+42,PA,Pennsylvania,5.1,59.6,13.6
+44,RI,Rhode Island,4.2,62.3,14.3
+45,SC,South Carolina,4.8,63.6,18
+46,SD,South Dakota,4.2,70.7,14.2
+47,TN,Tennessee,5.6,67.2,18.3
+48,TX,Texas,3.7,58.8,17.2
+49,UT,Utah,2.5,58,11.7
+50,VT,Vermont,4.1,62.8,12.2
+51,VA,Virginia,4,62.5,11.8
+53,WA,Washington,3.6,59.2,13.2
+54,WV,West Virginia,7.8,69.8,18.3
+55,WI,Wisconsin,3.7,53.8,13.2
+56,WY,Wyoming,4,57.9,11.2
